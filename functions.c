@@ -82,7 +82,7 @@ void louerScooter ( liste l , char ID[] )
 void afficherScooter ( liste l , char nomFichier[] )
 {
     FILE *f = NULL ;
-    f= fopen( nomFichier , "w" );
+    f= fopen( nomFichier , "a" );
 
     if ( f == NULL )
         exit(EXIT_FAILURE );
