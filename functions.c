@@ -88,9 +88,9 @@ void afficherScooter ( liste l , char nomFichier[] )
         exit(EXIT_FAILURE );
 
     if ( l->next )
-        {
-            fprintf(f,"%s\t%f\t%d\t%d %d %d \n",l->data.ID , l->data.Km , l->data.etat , l->data.t.jour , l->data.t.mois , l->data.t.annee );
+        {            
             afficherScooter(l->next , nomFichier );
+            fprintf(f,"%s\t%f\t%d\t%d %d %d \n",l->data.ID , l->data.Km , l->data.etat , l->data.t.jour , l->data.t.mois , l->data.t.annee );
         }
 }
 
