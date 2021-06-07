@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1623073622 source:c:\users\farou\desktop\revision s2\examen_2021\main.c
+	"header.h"
+
+1623073596 c:\users\farou\desktop\revision s2\examen_2021\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1623073590 source:c:\users\farou\desktop\revision s2\examen_2021\functions.c
+	"header.h"
+
